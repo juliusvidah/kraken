@@ -1,0 +1,48 @@
+@import "../scss/include";
+//! variables
+$nav-bg: white;
+$nav-co: white;
+$nav-fs: 2vw;
+
+#Nav {
+  background-color: $nav-bg;
+  font-size: $nav-fs;
+  padding: 0.5rem 1rem;
+  ul {
+    @include flex_between();
+    padding: 1rem;
+    list-style-type: none;
+    li {
+      @include flex_between();
+      //   gap: 3rem;
+      font-weight: bold;
+      padding: 0.5rem 2rem;
+      color: #e45122;
+      a {
+        color: #e45122;
+        text-decoration: none;
+        border: none;
+        border-radius: none;
+      }
+    }
+  }
+}
+.group1 {
+  color: #e45122;
+  gap: 6rem;
+}
+.group2 {
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+.group2 img {
+  width: 70%;
+}
+.group2 .btn1 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e45122;
+  color: white;
+  font-weight: bold;
+}
