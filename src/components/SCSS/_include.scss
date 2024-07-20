@@ -1,15 +1,15 @@
-@mixin flex_between(){
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+@mixin flex_between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-@mixin mobile(){
-   @media screen and (min-width: 300px) {
+@mixin mobile() {
+  @media screen and (min-width: 300px) {
     @content;
-   }
+  }
 }
-@mixin desktop(){
-   @media screen and (min-width: 900px) {
+@mixin desktop() {
+  @media screen and (min-width: 900px) {
     @content;
-   }
+  }
 }
