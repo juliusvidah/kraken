@@ -34,9 +34,9 @@ const LogIn = () => {
         </div>
       </div>
       <div className="forgot-password">
-        Don't have an account?{" "}
-        <Link className="log" to="/SignUp">
-          SignUp
+        Forgotten Password?{" "}
+        <Link className="log" to="/ForgottenPassword">
+          Click here
         </Link>
       </div>
       <div className="btn">

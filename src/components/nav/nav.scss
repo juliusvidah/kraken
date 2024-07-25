@@ -31,6 +31,9 @@ $nav-fs: 2vw;
   color: #e45122;
   gap: 6rem;
 }
+li .active{
+  color: black;
+}
 .group2 {
   margin: 0;
   padding: 0;
@@ -45,4 +48,9 @@ $nav-fs: 2vw;
   background-color: #e45122;
   color: white;
   font-weight: bold;
+  cursor: pointer;
+}
+.btn1:hover{
+  transform: scale(1.05);
+  border-color: white;
 }

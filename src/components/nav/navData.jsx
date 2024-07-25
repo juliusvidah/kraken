@@ -13,14 +13,14 @@ export const navGroup1 = [
   {
     id: 3,
     text: "ViewProperties",
-    path: "/viewproperties",
+    path: "/PropertyList",
   },
 ];
 export const navGroup2 = [
   {
     id: 6,
     text: notUser,
-    path: "#",
+    path: "/user",
   },
 
 ];

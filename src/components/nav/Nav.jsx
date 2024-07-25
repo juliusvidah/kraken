@@ -29,7 +29,7 @@ const Nav = () => {
         <li className="group2">
           <button className="btn1">Logout</button>
           {navGroup2.map((each) => (
-            <Link>
+            <Link to='/User'>
               <img key={each.id} src={each.text}  alt="" />
             </Link>
           ))}
