@@ -30,13 +30,7 @@
   font-size: smaller;
   margin-left: -27.5rem;
 }
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  // margin-top: 2rem;
-}
-.start1 {
+.btn7 button {
   padding: 15px 25px;
   border-radius: 5px;
   background-color: #e45122;
@@ -44,12 +38,14 @@
   font-size: large;
   font-weight: bold;
   margin-top: 2rem;
+  margin-left: 38rem;
 }
 .start1:hover {
   transform: scale(1.05);
   border-color: #ffffff;
+  background-color: #ffffff;
+  color: #e45122;
 }
 .home5 {
   font-size: smaller;
-  // margin-top: -13rem;
 }

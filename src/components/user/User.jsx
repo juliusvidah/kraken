@@ -27,8 +27,14 @@ const User = () => {
           WALLET BALANCE: <span className="amount">$12,000.406</span>
         </p>
       </div>
-      {/* <LazyLoadImage className="user5" src={user.user5} />
-      <LazyLoadImage className="user6" src={user.user6} /> */}
+      <div className="market">
+        <button className="market1">See Market Trends</button>
+        <button className="market2">Transaction Histry</button>
+      </div>
+    {/* <div className="prop">
+    <LazyLoadImage className="user5" src={user.user5} />
+    <LazyLoadImage className="user6" src={user.user6} />
+    </div> */}
     </div>
   );
 };

@@ -30,7 +30,7 @@ const Home = () => {
             </Image>
           </Image>
         </div>
-        <div className="btn">
+        <div className="btn7">
           <Link to="/signup">
             <button className="start1">Get Started</button>
           </Link>

@@ -18,8 +18,8 @@ const MainHome = () => {
           <p>Team Kraken is a reliable real estate team </p>
           <p> put together by CareerEx initiative.</p>
         </div>
-        <div className="btn">
-          <button className="start">Invest Now</button>
+        <div className="btn55">
+          <button className="start55">Invest Now</button>
         </div>
       </div>
       <div className="onboard2"></div>

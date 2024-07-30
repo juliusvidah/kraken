@@ -3,12 +3,12 @@ export const navGroup1 = [
   {
     id: 1,
     text: "Home",
-    path: "/",
+    path: "/mainhome",
   },
   {
     id: 2,
-    text: "Plan",
-    path: "/plan",
+    text: "My Portfolio",
+    path: "/user",
   },
   {
     id: 3,

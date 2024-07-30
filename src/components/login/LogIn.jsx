@@ -39,7 +39,7 @@ const LogIn = () => {
           Click here
         </Link>
       </div>
-      <div className="btn">
+      <div className="btns2">
         <button className="start">Submit</button>
       </div>
     </div>

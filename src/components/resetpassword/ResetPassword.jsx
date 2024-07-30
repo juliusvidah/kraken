@@ -1,6 +1,7 @@
 import { Image, Transformation } from "cloudinary-react";
 import React from "react";
 import { cloudName, logo } from "../cloud/CloudImages";
+import './resetpassword.scss'
 import { Link } from "react-router-dom";
 
 const ResetPassword = () => {
@@ -14,27 +15,27 @@ const ResetPassword = () => {
       <div className="heading">
         <h1>Reset Password</h1>
       </div>
-<div className="inputs1">
-<div className="input1">
-        <img
-          className="img"
-          src="https://w7.pngwing.com/pngs/138/590/png-transparent-computer-icons-password-icon-svg-security-password-icon.png"
-          alt=""
-        />
-        <input type="password" placeholder="Enter New Password" />
+      <div className="inputs1">
+        <div className="input1">
+          <img
+            className="img"
+            src="https://w7.pngwing.com/pngs/138/590/png-transparent-computer-icons-password-icon-svg-security-password-icon.png"
+            alt=""
+          />
+          <input type="password" placeholder="Enter New Password" />
+        </div>
+        <div className="input1">
+          <img
+            className="img"
+            src="https://w7.pngwing.com/pngs/138/590/png-transparent-computer-icons-password-icon-svg-security-password-icon.png"
+            alt=""
+          />
+          <input type="password" placeholder="Confirm New Password" />
+        </div>
       </div>
-      <div className="input1">
-        <img
-          className="img"
-          src="https://w7.pngwing.com/pngs/138/590/png-transparent-computer-icons-password-icon-svg-security-password-icon.png"
-          alt=""
-        />
-        <input type="password" placeholder="Confirm New Password" />
-      </div>
-</div>
       <Link className="log">
-        <div className="btn">
-          <button className="start">Proceed</button>
+        <div className="btn66">
+          <button className="start66">Proceed</button>
         </div>
       </Link>
     </div>

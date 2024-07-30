@@ -2,6 +2,7 @@ import React from "react";
 import { cloudName, logo } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
 import { Link } from "react-router-dom";
+import './forgottenpassword.scss'
 
 const ForgottenPassword = () => {
   return (
@@ -25,8 +26,8 @@ const ForgottenPassword = () => {
         </div>
       </div>
       <Link className="log" to="/ResetPassword">
-        <div className="btn">
-          <button className="start">Proceed</button>
+        <div className="btn77">
+          <button className="start77">Proceed</button>
         </div>
       </Link>
     </div>
