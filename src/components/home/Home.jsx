@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.scss";
+import "./home.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { cloudName, home } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div>
+    <div>
+      <div className="home">
         <div className="logo">
           <Image className="home1" cloudName={cloudName} publicId={home.home1}>
             <Transformation crop="scale" width="200" angle="0" />
@@ -36,6 +36,15 @@ const Home = () => {
           </Link>
         </div>
       </div>
+     <div className="heading-home">
+     <h2>Walk With Us</h2>
+     <p>Propwise is a digital platform designed to democratize real estate <br />investment</p>
+     </div>
+     <div className="about-home">
+      <h2>About Us</h2>
+      <p>
+      We are team of dedicated individuals put together on 1st of July 2024 by CareerEx in partnership with Access bank Plc, to <br /> develop a platform that will democratize real estate investment, offer users transparency and security to their investment. <br /> Team Kraken has developed a product called Propwise, which is an investment platform(website) designed to connect the <br /> finest independent real estate investors and enthusiast  to their dream property. </p>
+     </div>
     </div>
   );
 };

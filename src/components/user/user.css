@@ -15,6 +15,7 @@
   top: 19%;
   left: 85%;
   gap: 0px;
+  border-radius: 8px;
   opacity: 0px;
   cursor: pointer;
 }
@@ -24,7 +25,14 @@
   height: 66px;
   top: 47%;
   left: 85%;
+  border-radius: 8px;
   cursor: pointer;
+}
+.user4:hover{
+  transform: scale(1.05);
+}
+.user3:hover{
+  transform: scale(1.05);
 }
 .prop{
   position: absolute;
@@ -34,7 +42,7 @@
 }
 .market{
   position: absolute;
-  margin-left: 37rem;
+  margin-left: 48rem;
   margin-top: 2rem;
 }
 .market1{
@@ -45,7 +53,7 @@
   font-weight: bolder;
 }
 .market2{
-  margin-left: 2rem;
+  margin-left: 13rem;
   font-size: larger;
   padding: 10px 15px;
   color: #e45122;

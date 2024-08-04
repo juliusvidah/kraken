@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import './showmore.scss'
+import './showmore.css'
 import { property } from '../cloud/CloudImages';
 
 const ShowMore = () => {
@@ -24,7 +24,7 @@ const ShowMore = () => {
         }
             <button className='btn' onClick={toggleShowMore}>
             {
-                isShown ? 'ShowLess' : 'ShowMore'
+                isShown ? 'Show Less' : 'Show More'
             }
         </button>
     </div>

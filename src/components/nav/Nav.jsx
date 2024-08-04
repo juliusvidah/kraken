@@ -1,5 +1,5 @@
 import React from "react";
-import './nav.scss'
+import './nav.css'
 import { cloudName, mainLogo } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
 import { Link } from "react-router-dom";

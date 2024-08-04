@@ -1,7 +1,7 @@
 import { Image, Transformation } from "cloudinary-react";
 import React from "react";
 import { cloudName, logo } from "../cloud/CloudImages";
-import './resetpassword.scss'
+import './resetpassword.css'
 import { Link } from "react-router-dom";
 
 const ResetPassword = () => {

@@ -2,7 +2,10 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { user } from "../cloud/CloudImages";
 import Nav from "../nav/Nav";
-import "./user.scss";
+import "./user.css";
+import PopUp from "../popup/PopUp";
+import FilPop from "../filpop/FilPop";
+import TopUp from "../topup/TopUp";
 
 const User = () => {
   return (
@@ -26,15 +29,15 @@ const User = () => {
         <p className="wallet">
           WALLET BALANCE: <span className="amount">$12,000.406</span>
         </p>
+       
       </div>
       <div className="market">
-        <button className="market1">See Market Trends</button>
+        {/* <button className="market1">See Market Trends</button> */}
         <button className="market2">Transaction Histry</button>
       </div>
-    {/* <div className="prop">
-    <LazyLoadImage className="user5" src={user.user5} />
-    <LazyLoadImage className="user6" src={user.user6} />
-    </div> */}
+      <PopUp/>
+      <FilPop/>
+      <TopUp/>
     </div>
   );
 };

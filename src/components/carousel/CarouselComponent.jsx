@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { carousel, cloudName } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
-import "./carouselcomponent.scss";
+import "./carouselcomponent.css";
 
 const CarouselComponent = () => {
   return (

@@ -1,20 +1,17 @@
-@import "../scss/include";
-//! variables
-$nav-bg: white;
-$nav-co: white;
-$nav-fs: 2vw;
-
 #Nav {
-  background-color: $nav-bg;
-  font-size: $nav-fs;
+  background-color: white;
+  font-size: 2vw;
   padding: 0.5rem 1rem;
   ul {
-    @include flex_between();
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 1rem;
     list-style-type: none;
     li {
-      @include flex_between();
-      //   gap: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       font-weight: bold;
       padding: 0.5rem 2rem;
       color: #e45122;
@@ -31,7 +28,7 @@ $nav-fs: 2vw;
   color: #e45122;
   gap: 6rem;
 }
-li .active{
+li .active {
   color: black;
 }
 .group2 {
@@ -50,7 +47,7 @@ li .active{
   font-weight: bold;
   cursor: pointer;
 }
-.btn1:hover{
+.btn1:hover {
   transform: scale(1.05);
   border-color: white;
 }

@@ -1,9 +1,10 @@
 import React from "react";
-import "./mainhome.scss";
+import "./mainhome.css";
 import Nav from "../nav/Nav";
 import { arrow, cloudName, footer, onboard2 } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
 import CarouselComponent from "../carousel/CarouselComponent";
+import Payment from "../payment/Payment";
 
 const MainHome = () => {
   return (
@@ -20,6 +21,7 @@ const MainHome = () => {
         </div>
         <div className="btn55">
           <button className="start55">Invest Now</button>
+          {/* <Notification/> */}
         </div>
       </div>
       <div className="onboard2"></div>
@@ -47,6 +49,7 @@ const MainHome = () => {
             <Transformation crop="scale" width="200" angle="0" />
           </Image>{" "}
         </div>
+        <Payment/>
       </div>
       <div className="footer">
         <Image

@@ -6,7 +6,7 @@
 
 .home {
   margin-top: -2rem;
-  height: 100vh;
+  height: 104vh;
   background-image: url(https://res.cloudinary.com/degnky4ab/image/upload/v1720909746/sr0c3zfkj0kns0w6wrnx.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
   color: white;
   font-size: large;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 6rem;
   margin-left: 38rem;
 }
 .start1:hover {
@@ -48,4 +48,37 @@
 }
 .home5 {
   font-size: smaller;
+}
+.about-home p{
+  color: black;
+  font-family: Roboto;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+}
+.about-home{
+  margin-bottom: 5rem;
+}
+.about-home h2{
+  height: 45px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+padding: 2rem;
+}
+.heading-home h2{
+  height: 45px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+padding: 2rem;
+}
+.heading-home p{
+  color: black;
+  font-family: Roboto;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
 }

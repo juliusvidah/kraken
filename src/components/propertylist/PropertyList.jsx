@@ -1,5 +1,5 @@
 import React from "react";
-import "./propertylist.scss";
+import "./propertylist.css";
 import { cloudName, property } from "../cloud/CloudImages";
 import { Image, Transformation } from "cloudinary-react";
 import { LazyLoadImage } from "react-lazy-load-image-component";

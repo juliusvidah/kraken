@@ -24,8 +24,8 @@ export const onboard2 = {
     onboard1: 'eqrbdzqedtgf81lw3lyy'
 }
 export const carousel = {
-    caroulsel1: 'g9gb5w0hixicelqzgjvf',
-    caroulsel2: 'ph8unj9i9mhv6fzi9rac',
+    caroulsel1: 'https://res.cloudinary.com/degnky4ab/image/upload/v1721215360/g9gb5w0hixicelqzgjvf.svg',
+    caroulsel2: 'https://res.cloudinary.com/degnky4ab/image/upload/v1721215360/g9gb5w0hixicelqzgjvf.svg',
     caroulsel3: 'ewkwhynxkgnbhifi9dz2',
     caroulsel4: 'ecl5eqlcwdarjhn7jq3i',
 }
